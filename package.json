@@ -1,0 +1,19 @@
+{
+  "name": "forall",
+  "version": "0.1.0",
+  "description": "Expressive static types and invariant checks for JavaScript.",
+  "main": "src/forall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiavictor/forall.git"
+  },
+  "author": "Victor Maia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maiavictor/forall/issues"
+  },
+  "homepage": "https://github.com/maiavictor/forall#readme"
+}
