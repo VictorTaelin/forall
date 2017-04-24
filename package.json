@@ -1,6 +1,6 @@
 {
   "name": "forall",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Expressive static types and invariant checks for JavaScript.",
   "main": "src/forall.js",
   "scripts": {

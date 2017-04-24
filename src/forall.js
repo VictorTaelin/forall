@@ -300,7 +300,7 @@ F.Fn = (...argsRetr) => {
         return utils.flatten([
           ["Expected Function, got " + typeof fn + ":", " "],
           utils.showBlock(fn)]);
-      for (let attempts = 0; attempts < (STATIC_TIME ? 64 : 1); ++attempts) {
+      for (let attempts = 0; attempts < (STATIC_TIME ? 8 : 1); ++attempts) {
         const testArgs = argTypes.map(type => type.rand(attempts < 32 ? 32 : null));
         const testRetr = fn.apply(this, testArgs);
         if (!retTuple[0].test(testRetr)) {
